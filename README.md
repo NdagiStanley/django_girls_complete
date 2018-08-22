@@ -2,7 +2,6 @@
 
 This repository contains the code that one would eventually have were they to go through the [Django Girls tutorial](https://tutorial.djangogirls.org/en/).
 
-
 ## Differences
 
 Expressing my authorial rights, some things are a bit different from the tutorial:
