@@ -28,3 +28,33 @@ In a python virtual environment, run:
 - `python manage.py runserver`
 
 Now, you are good to go. Your blog is ready.
+
+### Docker
+NB: The app instance will run off the a preset admin user as set in [init.sh](/init.sh).
+
+To spin up the application using docker, ensure that Docker is installed. Then run:
+
+```bash
+docker-compose up
+```
+
+Or in detached mode:
+
+```bash
+docker-compose up -d
+```
+
+The application will be live at [0.0.0.0:8000](0.0.0.0:8000)
+
+### Log in/ out
+
+- Click on `Log in` (you'll be redirected to the Admin page)
+- On the admin page, fill in the credentials of the superuser created in [Setup](#setup)
+- Click on the *Log in* button (You'll be redirected back to the page)
+- Click on `Log out` to log out.
+
+### Blog entry
+
+- Log in
+- Click on the `+` button, enter the _**title**_ and _**text**_
+- Finally hit the `Save` button
