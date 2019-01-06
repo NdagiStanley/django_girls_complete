@@ -34,12 +34,15 @@ python manage.py runserver
 
 Now, you are good to go. Your blog is ready.
 
+<<<<<<< HEAD
 ### Test
 
 ```bash
 python manage.py test
 ```
 
+=======
+>>>>>>> Update README
 ### Docker
 NB: The app instance will run off the a preset admin user as set in [init.sh](/init.sh).
 
