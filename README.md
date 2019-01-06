@@ -6,7 +6,7 @@ This repository contains the code that one would eventually have were they to go
 
 ## Differences
 
-Expressing my authorial rights, some things are a bit different from the tutorial:
+Expressing my creative license, some things are a bit different from the tutorial:
 
 - A `Log in` and `Log out` links on the page header
 - A `Back` link within the *blog-detail* and *blog-edit* pages
@@ -25,7 +25,7 @@ Expressing my authorial rights, some things are a bit different from the tutoria
 In a python virtual environment, run:
 
 - `pip install -r requirements.txt`
-- `python manage.py migrate blog`
+- `python manage.py migrate`
 - `python manage.py createsuperuser` (to create user that you'll use to log in)
 
 ### Run the application
@@ -43,6 +43,7 @@ python manage.py test
 ```
 
 ### Docker
+
 NB: The app instance will run off the a preset admin user as set in [init.sh](/init.sh).
 
 To spin up the application using docker, ensure that Docker is installed. Then run:
@@ -69,5 +70,5 @@ The application will be live at [0.0.0.0:8000](0.0.0.0:8000)
 ### Blog entry
 
 - Log in
-- Click on the `+` button, enter the _**title**_ and _**text**_
+- Click on the `+` button, enter the ***title*** and ***text***
 - Finally hit the `Save` button
