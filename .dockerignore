@@ -1,0 +1,8 @@
+__pycache__/
+*.py[cod]
+
+# Django stuff
+db.sqlite3
+
+# Editor files
+.vscode/
