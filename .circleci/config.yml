@@ -1,7 +1,7 @@
 version: 2.1
 
 jobs:
-  build:
+  build_and_test:
     docker:
       - image: cimg/python:3.12.0
 
@@ -29,13 +29,13 @@ jobs:
           name: Run tests
           command: |
             . venv/bin/activate
-            python3 manage.py test
+            coverage run --source='.' manage.py test
 
       - store_artifacts:
-          path: test-reports
-          destination: test-reports
+          path: .coverage
+          destination: coverage
 
 workflows:
-  build_and_test:
+  run_tests:
     jobs:
-      - build
+      - build_and_test
