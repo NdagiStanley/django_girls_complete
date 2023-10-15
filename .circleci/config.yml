@@ -26,6 +26,12 @@ jobs:
             - "venv"
 
       - run:
+          name: Run linter
+          command: |
+            . venv/bin/activate
+            flake8 .
+
+      - run:
           name: Run tests
           command: |
             . venv/bin/activate
