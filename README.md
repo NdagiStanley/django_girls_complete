@@ -12,7 +12,7 @@ Expressing my creative license, some things are a bit different from the tutoria
 - A `Back` link within the *blog-detail* and *blog-edit* pages
 - A more extensive `.gitignore` file
 - A `.editorconfig` file
-- An additional python package in the requirements.txt: `pycodestyle`
+- Additional python packages in the requirements.txt: `flake8` and `coverage`
 
 - Within `mysite/settings.py`,
 
