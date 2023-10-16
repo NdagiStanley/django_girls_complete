@@ -5,6 +5,6 @@ services:
     build: .
     volumes:
       - .:/code
-      - db.sqlite3
+      - /db.sqlite3
     ports:
       - "8000:8000"
