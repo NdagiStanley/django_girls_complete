@@ -1,2 +1,2 @@
-coverage==7.3.2
+coverage==7.16.0
 Django==4.1.10
